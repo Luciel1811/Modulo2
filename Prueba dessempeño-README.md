@@ -34,4 +34,4 @@ You can contact me through:
 2. Emai:isabellajimenezlazaro@gmail.com
 
 ----------------------------------------
-Muchas gracias.
+Thank you very much.
