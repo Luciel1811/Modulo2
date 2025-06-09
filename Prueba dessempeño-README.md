@@ -29,9 +29,10 @@ A space where you can go to my social networks and see my content.
 
 
 # Contact me
-You can contact me through:
-1. Riwi Moodle
-2. Emai:isabellajimenezlazaro@gmail.com
+1. Name: Isabella Jiménez Lázaro
+2. Clan: Manglar.
+3. Emai:isabellajimenezlazaro@gmail.com
+4. ID: 1042241806
 
 ----------------------------------------
 Thank you very much.
