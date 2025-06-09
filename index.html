@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="page">
+
+<!-- In this part you can find the menu of the web-site -->
+        <header>
+            <div class="links-container">
+                <nav class="links" style="--items:3;">
+                    <a href="#contact">Contact me</a>
+                    <a href="#about-me">Get to know me</a>
+                    <a href="#projects">My projects</a>
+                    <span class="line"></span>
+                </nav>
+            </div>
+        </header>
+
+
+<!-- A brief description of who I am -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>
+                Hello, my name
+                    is Isabella Jiménez Lázaro and I think of myself as a creative person who enjoy lots of ways of art.<br>
+                    I love animated productions like cartoons or movies, and funny pretty thinks. <br>Right now I'm so excited
+                    to be learning HTML,
+                    like I said above I enjoy creating thinks, even more so if they are visually pretty.
+                    I also enjoied learning PYTHON, even though it was challenging.
+                    <br>I'm so delighted with what I'm learning here at Riwi,
+                    and I hope to make the most out of it.
+            </p>
+        </section>
+
+
+<!-- A skills list with a picture of me -->
+        <div class="skills">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/img/profile-img.jpg" alt="">
+                    </div>
+                    <div class="card-back">
+                        <p> 
+                            languages. <br>
+                            - Advanced english <br>
+                            - Intermediate french                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <section class="skills-list">
+                <h3 class="skills-title">Skills</h3>
+                <ul>
+                    <li>- HTML</li>
+                    <li>- CSS</li>
+                    <li>- Python</li>
+                    <li>- Responsible</li>
+                    <li>- Creative</li>
+                    <li>- Recursive</li>
+                    <li>- Leadership</li>
+                    <li>- Teamwork</li>
+                </ul>
+            </section>
+        </div>
+
+
+<!-- A description of the projects I've made -->
+        <section id="projects">
+            <h2>My projects</h2>
+            <h3>Project 1 <b>:</b> Product validation system<b>.</b></h3>
+            <p>Develop a Python program that manages a series of ratings and statistics interactively.</p>
+            <h3>Project 2 <b>:</b> Ratings and Statistics Challenge<b>.</b></h3>
+            <p>Develop a Python program that efficiently manages a store's product inventory by applying parameterized
+                functions, lambda functions, and data structures such as lists, tuples, and dictionaries.</p>
+            <h3>Project 3 <b>:</b> My first portfolio<b>.</b></h3>
+            <p>In this project I built my firs portfolio only using HTML.</p>
+            <h3>Project 4 <b>:</b> Layout master<b>.</b></h3>
+            <p>In this training, you'll become a master of layout, utilizing HTML5 and powerful CSS tools 
+                like Flexbox and Grid. You'll also learn how to make your pages responsive using media queries,
+                adapting content to different screen sizes.</p>
+        </section>
+
+
+<!-- A picture of the projects I've made -->
+        <h3 id="project-images">Projects Images</h3>
+        <div class="gallery">
+            <div class="gallery-card">
+                <div class="gallery-card-inner">
+                    <div class="gallery-card-front">
+                        <img src="assets/img/project1.png" alt="Project 1">
+                    </div>
+                    <div class="gallery-card-back">
+                        <p>Project 1. <br>
+                            console output with all results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-card-inner">
+                    <div class="gallery-card-front">
+                        <img src="assets/img/project2.png" alt="Project 2">
+                    </div>
+                    <div class="gallery-card-back">
+                        <p>Project 2. <br>
+                            console output with all store data stored.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-card-inner">
+                    <div class="gallery-card-front">
+                        <img src="assets/img/project3.png" alt="Project 3">
+                    </div>
+                    <div class="gallery-card-back">
+                        <p>Project 3. <br>
+                            CSS styles applied to the portfolio menu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-card-inner">
+                    <div class="gallery-card-front">
+                        <img src="assets/img/project4.png" alt="Project 3">
+                    </div>
+                    <div class="gallery-card-back">
+                        <p>Project 3. <br>
+                            HTML structure applied to the project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- A section to get in touch with me -->
+        <section id="contact">
+            <h2>Get in touch with me</h2>
+            <form action="/send" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name.">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email.">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" required
+                    placeholder="Something to say? Put it here."></textarea>
+
+                <input type="submit" value="send">
+            </form>
+        </section>
+
+
+<!-- A link if you want to go check my social media -->
+        <h2>Social Media</h2>
+        <div class="social-media">
+            <a href="https://github.com/Luciel1811"><img id="git" src="assets/img/git-icon.png" alt="github icon" ></a>
+            <a href="https://www.youtube.com/@isabellajimenezlazaro8014"><img id="youtube" src="assets/img/youtube-icon-hover.png" alt="youtube icon"></a>
+        </div>
+
+
+<!-- The footer of the web-site -->
+        <div class="footer-separator">
+            <hr>
+        </div>
+
+        <footer>
+            <cite>Isabella Jiménez Lázaro - Riwi 2025</cite>
+        </footer>
+    </div>    
+</body>
+</html>
